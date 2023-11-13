@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(170, 230, 215);
+}
+
+.col-3 {
+  margin-top: 30px;
+  background-color: rgb(235, 220, 189);
+}
+.col-9 {
+  margin-top: 30px;
+}
+.form-title,
+.table-title {
+  margin-top: 10px;
+  text-align: center;
+}
+input[type="text"],
+select,
+input[type="number"],
+select {
+  width: 100%;
+}
+
+input[type="submit"],
+select {
+  width: 100%;
+  margin-bottom: 10px;
+}
