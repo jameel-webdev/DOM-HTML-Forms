@@ -193,7 +193,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
       !pincodeData ||
       !stateData ||
       !countryData ||
-      !genderData ||
+      genderData.length < 1 ||
       favCusines.length < 2
     ) {
       alert(
